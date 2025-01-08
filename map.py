@@ -11,5 +11,6 @@ for num in lista_num:
 
 print(lista_cuadrados)
 
+#esta funcion reemplaza al ciclo for
 map_cuadrados = list(map(calcular_cuadrado, lista_num))
 print(map_cuadrados)
